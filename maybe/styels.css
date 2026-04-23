@@ -1,0 +1,95 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+
+ .img_header{
+  width: 50px;
+  height: auto;
+}
+nav a{
+  margin-left: 15px;
+  text-decoration: none;
+}
+hr{
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  
+}
+.hero{
+  background-color: cornflowerblue;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.intro{
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+.intro h2{
+  margin-bottom: 10px;
+}
+.intro p{
+  color: #666;
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  gap : 40px;
+  padding: 50px 20px;
+
+}
+.about_image img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.about_text{
+  flex: 1;
+
+}
+.my_works{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  gap: 30px;
+  padding: 50px;
+}
+.work_box{
+  background-color: #3498db;
+  height: 150px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.work_box:hover{
+  transform: scale(1.05);
+}
+.testimonials{
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.test-item{
+  max-width: 300px;
+}
+.avatar{
+  width: 70px;
+  height: 70px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
